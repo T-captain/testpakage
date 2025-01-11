@@ -32,7 +32,12 @@
     "autoload": {
         "psr-4": {
             "vendornamespace\\Testpakage\\": "src/",
-            "vendornamespace\\Testpakage\\Database\\Factories\\": "database/factories/"
+            "vendornamespace\\Testpakage\\Database\\Factories\\": "database/factories/",
+            "vendornamespace\\Testpakage\\Commands\\": "src/Commands/",
+            "vendornamespace\\Testpakage\\Helpers\\": "src/Helpers/",
+            "vendornamespace\\Testpakage\\Attributes\\": "src/Attributes/",
+            "vendornamespace\\Testpakage\\Modules\\": "src/Modules/"
+
         }
     },
     "autoload-dev": {
