@@ -1,10 +1,10 @@
 <?php
 
-namespace YourVendor\YourPackageName;
+namespace vendornamespace\Testpakage;
 
 use Illuminate\Support\ServiceProvider;
 
-class YourPackageNameServiceProvider extends ServiceProvider
+class TestpakageServiceProvider extends ServiceProvider
 {
     public function register()
     {
